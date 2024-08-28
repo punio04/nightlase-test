@@ -2963,7 +2963,7 @@ img.fit {
   }
 
   .content20211013 .layout .text p {
-    font-size: 3.4rem;
+    font-size: 4.2rem;
   }
 
   .text p {
@@ -3104,10 +3104,10 @@ img.fit {
 .ttl01.pc-only {
   margin-top: 0 !important;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 28px;
   margin-top: 50px;
   font-family: var(--font-jp-min);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -3195,6 +3195,32 @@ img.fit {
   color: #806a3a;
 }
 
+.btn_font {
+  text-align: center;
+  padding-top: 20px;
+}
+
+body {
+  font-family: "游ゴシック",
+    "Yu Gothic",
+    "游ゴシック体",
+    "YuGothic",
+    "ヒラギノ角ゴ Pro",
+    "Hiragino Sans",
+    "Meiryo UI",
+    "メイリオ",
+    Meiryo,
+    "ＭＳ Ｐゴシック",
+    "MS PGothic",
+    sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+:root {
+  --font-jp-min: "游明朝", "YuMincho", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HGS明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  --font-jp-gothic: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Sans", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -3242,7 +3268,8 @@ img.fit {
   }
 
   .ttl01.sp-only {
-    font-size: 17px;
+    font-size: 5rem;
+    font-weight: bold;
     margin: 25px 0 8px;
   }
 
@@ -3256,7 +3283,7 @@ img.fit {
   }
 
   .downtime_desc {
-    font-size: 3rem;
+    font-size: 4.2rem;
     line-height: 1.8;
   }
 
@@ -3304,7 +3331,7 @@ img.fit {
   }
 
   .plan_details2 .layout .text {
-    font-size: 3.4rem;
+    font-size: 4.2rem;
     margin-top: 15px;
     padding: 0px;
   }
@@ -3323,12 +3350,12 @@ img.fit {
   }
 
   .mechanism_action div+p {
-    font-size: 3.4rem;
+    font-size: 4.2rem;
     line-height: 2.0;
   }
 
   .plan_details2 .plan_ttl span.plan_poster {
-    font-size: 10px;
+    font-size: 3.2rem;
     border: 1px solid #D6D6D6;
     color: #555;
     padding: 10px 10px;
@@ -3345,6 +3372,14 @@ img.fit {
     font-size: 6rem;
     letter-spacing: 0.1em;
     margin-bottom: 5rem;
+  }
+
+  .btn_font {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 3rem;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
 }
